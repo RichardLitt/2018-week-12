@@ -1,0 +1,17 @@
+theme: jekyll-theme-minimal
+future: false
+
+# Site settings
+permalink: pretty
+
+# Pages permalink
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      permalink: /:path/:basename:output_ext
+
+site:
+  title: "2018 Week 12"
+  description: "A journal experiment for March 19th through March 26th, 2018"
