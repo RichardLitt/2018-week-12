@@ -19,22 +19,26 @@
 
       {{ content }}
 
-      {% for post in site.posts %}
-      <article>
-        <h2>
-          <a href="{{ site.github.url }}{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-        <p>
-          <time datetime="{{ post.date | date: "%Y-%m-%d %H-%M" }}">{{ post.date | date: "Posted on %A %m/%d at %H:%M" }}</time>
-        </p>
-        {{ post.content }}
-      </article>
+      {% if site.posts.size != 0 %}
+        {% for post in site.posts %}
+        <article>
+          <h2>
+            <a href="{{ site.github.url }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h2>
+          <p>
+            <time datetime="{{ post.date | date: "%Y-%m-%d %H-%M" }}">{{ post.date | date: "Posted on %A %m/%d at %H:%M" }}</time>
+          </p>
+          {{ post.content }}
+        </article>
 
-      <hr style="height:3px;margin:40px 0px;"/>
+        <hr style="height:3px;margin:40px 0px;"/>
 
-      {% endfor %}
+        {% endfor %}
+      {% else %}
+        <p>There are no posts in this fence.</p>
+      {% endif %}
       </section>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
