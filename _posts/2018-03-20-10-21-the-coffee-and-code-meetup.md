@@ -1,0 +1,11 @@
+---
+layout: page
+title: "The Coffee and Code Meetup"
+date: 2018-03-20T10:21:32Z
+---
+
+I'm in Cafe Osmo this morning, at the [Coffee and Code](https://www.meetup.com/pitonneux/events/qvnxkpyxfbbc/) Meetup, which happens every week on Tuesday morning. I've spent the last half hour talking to people and catching up with some old friends. One of the main issues with working remotely is that it is very easy to get into the habit of working by yourself exclusively, which ends up with an increasing feeling of isolation. By wasting a few hours of potential productivity a week going to meetups like this, I end up having a community that ultimately gives me more mental sanity than I would have otherwise. The time isn't wasted from a higher perspective, although that is often how it feels when I look back at checkmarks of the day's progress.
+
+I often learn more from these events than I would otherwise at home, too. For instance, someone I've just met here, beginning to code, asked everyone: "Are you a beginner, intermediate, or expert coder?" I wanted to point out to him that this is an aggressive statement, and that it doesn't encapsulate how coding works from my perspective. Coding is a practice, not a verifiable skill - and each expert in one branch may know nothing about the other. Talking to him, I also learned that he doesn't know what GitHub is, and doesn't like the design of it and doesn't understand how it is used. I think that's interesting. Judging a site before using it or knowing what problem it is solving seems, to me, to be naïve. There are some patterns he has that don't match my own, and it's interesting to see how different we are, and how I've been able to resolve or abstract away a few of those early questions I had a decade ago when i started.
+
+With that having been said, let's move on to what I need to do today. What are my priorities? That I don't know unnerves me. I'm going to spend the next thirty minutes onloading this context; going through my emails, picking out urgent and important work, writing down priorities by hand, and going through my hand-written checklists from the past few months and picking out issues that I haven't resolved. Back in a bit.
