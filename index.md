@@ -1,4 +1,4 @@
 ---
-title: $2117.91
+title: Home
 layout: default
 ---

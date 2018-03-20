@@ -12,7 +12,7 @@ After the wild success of my [2117.91USD](https://github.com/RichardLitt/2117.91
 
 ## Can I help with anything?
 
-Of course! [Open an issue](https://github.com/RichardLitt/2117.91USD/issues/new) with your questions, or write me at [richard@burntfen.com](mailto:richard@burntfen.com), or hit me up on Twitter at [@richlitt](https://twitter.com/richlitt).
+Of course! [Open an issue](https://github.com/RichardLitt/2018-week-12/issues/new) with your questions, or write me at [richard@burntfen.com](mailto:richard@burntfen.com), or hit me up on Twitter at [@richlitt](https://twitter.com/richlitt).
 
 ## Can I support this sort of thing?
 
