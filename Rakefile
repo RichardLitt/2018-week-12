@@ -51,6 +51,7 @@ end #JB
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+  draft_file = ENV["draft"] || "_drafts/draft.md"
   title = ENV["title"] || "new-post"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   date, date_time, date_time_long = RakeHelper.date_time
@@ -66,9 +67,11 @@ task :post do
     post.puts ""
   end
 
-  sh "cat _drafts/draft.md >> #{filename}"
+  sh "cat #{draft_file} >> #{filename}"
   sh "git add #{filename}"
   sh "git commit -m \"#{title}\""
+  # Empty the draft file after it has a commit history
+  sh "> #{draft_file}"
   sh "git show HEAD"
 
 end # task :post
