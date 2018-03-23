@@ -13,5 +13,6 @@ defaults:
       permalink: /:path/:basename:output_ext
 
 site:
+  google_analytics: "UA-4124866-15"
   title: "2018 Week 12"
   description: "A journal experiment for March 19th through March 26th, 2018"
