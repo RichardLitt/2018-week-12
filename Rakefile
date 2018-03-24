@@ -63,6 +63,7 @@ task :post do
     post.puts "layout: page"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "date: #{date_time_long}"
+    post.puts "image: /assets/img/logo.png"
     post.puts "---"
     post.puts ""
   end
